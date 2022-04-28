@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap");
+
+//the fonts
+$ibm-plex-sans: "IBM Plex Sans", sans-serif;
+
+//font weights
+$bold: 700;
+$semi-bold: 500;
+$regular: 400;
+
+//the font styles
+
+//the links
+
+@mixin menu-links-default {
+  font-family: ibm-plex-sans;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+@mixin menu-links-sublink-default {
+  font-family: ibm-plex-sans;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+@mixin footer-links-default {
+  font-family: ibm-plex-sans;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+@mixin footer-links-small {
+  font-family: ibm-plex-sans;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+@mixin footer-links-activated {
+  font-family: ibm-plex-sans;
+  font-weight: 700;
+  font-size: 20px;
+}
